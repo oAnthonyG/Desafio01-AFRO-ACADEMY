@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen and (min-width:0px){
+    body{
+    background: url(../img/bg-intro-desktop.png) center repeat;
+    background-color: hsl(250, 3%, 37%);
+    }
+    .box{
+        width: 100%;
+        padding: 1em;
+        
+    }
+    .box img{
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-radius: 20px;
+    }
+    .title{
+        margin-bottom: 0.4em;
+        text-align: center;
+    }
+    .link-name{
+        text-decoration: none;
+        color: blue;
+    }
+    .box p{
+        margin-bottom: 0.6em;
+    }
+}
+@media screen and (min-width:480px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        width: 375px;
+        margin-inline: center;
+        padding-top: 0;
+    }
+    .box img{
+        margin-top: 0.4em;
+    }
+}
